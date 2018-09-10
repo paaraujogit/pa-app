@@ -16,6 +16,7 @@ You need Maven installed
 download pa-app from github
 cd pa-app
 mvn package
+java -cp target/pa-app-1.0-SNAPSHOT.jar pa.app.App
 ```
 
 This package command execute maven Unit test
